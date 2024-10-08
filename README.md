@@ -1,4 +1,4 @@
-## Reader \ Book
+## Reader \ Book [ManyToMany]
 
 ### Book
 ```
@@ -162,7 +162,7 @@ public class LibraryManagement {
 }
 ```
 
-## Album \ Customer
+## Album \ Customer  [ManyToMany]
 ### Album
 ```
 import jakarta.persistence.*;
